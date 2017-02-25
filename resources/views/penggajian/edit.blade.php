@@ -6,7 +6,7 @@
                 <div class="panel-heading"><h2>Edit Lembur Pegawai</div>
                     
                 <div class="panel-body">
-                    {!!Form::model($lemburpegawai,['method'=>'PATCH','route'=>['lembur_pegawai.update',$lemburpegawai->id]])!!}
+                    {!!Form::model($penggajian,['method'=>'PATCH','route'=>['lembur_pegawai.update',$penggajian->id]])!!}
 
 
                         
